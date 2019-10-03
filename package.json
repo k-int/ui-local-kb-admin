@@ -76,6 +76,60 @@
         "visible": true
       },
       {
+        "permissionName": "ui-local-kb-admin.jobs.view",
+        "displayName": "Local KB Admin: View agreement jobs",
+        "visible": true,
+        "subPermissions": [
+          "module.local-kb-admin.enabled",
+          "erm.jobs.view"
+        ]
+      },
+      {
+        "permissionName": "ui-local-kb-admin.jobs.edit",
+        "displayName": "Local KB Admin: Create agreement jobs",
+        "visible": true,
+        "subPermissions": [
+          "ui-local-kb-admin.jobs.view",
+          "erm.jobs.edit"
+        ]
+      },
+      {
+        "permissionName": "ui-local-kb-admin.jobs.delete",
+        "displayName": "Local KB Admin: Delete agreement jobs",
+        "visible": true,
+        "subPermissions": [
+          "ui-local-kb-admin.jobs.view",
+          "erm.jobs.item.delete"
+        ]
+      },
+      {
+        "permissionName": "ui-local-kb-admin.kbs.view",
+        "displayName": "Local KB Admin: View remote KB configuration",
+        "visible": true,
+        "subPermissions": [
+          "module.local-kb-admin.enabled",
+          "erm.kbs.view"
+        ]
+      },
+      {
+        "permissionName": "ui-local-kb-admin.kbs.edit",
+        "displayName": "Local KB Admin: Create remote KB configuration",
+        "visible": true,
+        "subPermissions": [
+          "ui-local-kb-admin.kbs.view",
+          "erm.kbs.edit"
+        ]
+      },
+      {
+        "permissionName": "ui-local-kb-admin.kbs.delete",
+        "displayName": "Local KB Admin: Delete remote KB configuration",
+        "visible": true,
+        "subPermissions": [
+          "ui-local-kb-admin.kbs.view",
+          "erm.kbs.item.delete"
+        ]
+      },
+      {
         "permissionName": "settings.local-kb-admin.enabled",
         "displayName": "Settings (Local KB Admin): display list of settings pages",
         "visible": true,
